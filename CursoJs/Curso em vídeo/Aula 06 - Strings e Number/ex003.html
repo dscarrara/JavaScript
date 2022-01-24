@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 175);
+            color: white; /* Comentário em CSS */
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(199, 199, 15)
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!--Isso é um comentário em html-->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número:')) // Real
+        var n2 = Number.parseInt(window.prompt('Digite outro número:')) // Interiro
+        var n3 = Number(window.prompt('Digite mais um número:')) // Real e Inteiro
+        var s = n1 + n2 + n3
+        window.alert(`A soma entre ${n1}, ${n2} e ${n3} é igual a ${s}`)
+        //+ para adição (number + number)
+        //+ para concatenação (string + string)
+    </script>
+</body>
+</html>
